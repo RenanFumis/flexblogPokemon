@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/blog.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700;1,6..12,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>FlexBlog - Pokemon</title>
+</head>
+
+<body>
+
+
+
+  <header class="menu-bg">
+    <div class="menu">
+      <div class="menuLogo">
+        <a href="#">FlexBlog <sup class="supPokemon">Pokemon</sup></a>
+      </div>
+      <nav class="menuNavegacao">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#evolucao">Evolução Gastly</a></li>
+          <li><a href="#capturar">Capturar</a></li>
+          <li><a href="#pokemons">Alguns Pokemons</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <h1 class="introducao">Desenvolvendo com <br>Propriedades de Flexbox</h1>
+
+  <section class="sobre" id="sobre">
+    <div class="sobreInfo">
+      <h1>Sobre</h1>
+      <p>
+        Meu nome é Renan Fumis, sou formado em Publicidade e propaganda pela Faculdade Unip, e cursando uma
+        pós-graduação em Desenvolvimento Full Stack na PUC - Minas, também faço alguns cursos livres de Desenvolvimento
+        Frontend. Atualmente, estou em busca de oportunidades na área de frontend para desenvolver e aprimorar minhas
+        habilidades, contribuindo de forma eficaz.</p>
+      <p>
+        Sobre o Blog Pokemon: Este blog representa um projet o avançado em Flexbox, explorando o posicionamento de
+        elementos através de <b>display: flex;</b>. O tema escolhido é Pokémon Psíquicos, refletindo minha paixão pelo
+        universo Pokémon. Aqui, você poderá observar a aplicação prática dessas técnicas, proporcionando uma experiência
+        visualmente atrativa e funcional aos visitantes. A utilização do <b>Flexbox</b> permite um layout responsivo e
+        dinâmico, destacando a versatilidade dessa técnica no design de interfaces web. Espero que aprecie a jornada por
+        este universo Pokémon através do prisma do desenvolvimento frontend.</p>
+    </div>
+    <div class="sobreImg">
+      <img class="gallade" src="./img/Gallade.full.jpg" alt="sobre 1">
+    </div>
+    <div class="sobreImg">
+      <img class="alakazan" src="./img/alakazan.png" alt="sobre 2">
+    </div>
+  </section>
+
+  <section class="evolucao" id="evolucao">
+    <h1>Evolução Gastly</h1>
+
+    <div class="evolucaoContainer">
+      <div class="evolucaoGastly primeiro">
+        <h2>Gastly</h2>
+        <img class="gastly" src="./img/gastly.png" alt="produtos 1">
+      </div>
+
+      <div class="evolucaoGastly segundo">
+        <h2>Haunter</h2>
+        <img class="haunter" src="./img/haunter.png" alt="produtos 2">
+      </div>
+
+      <div class="evolucaoGastly terceiro">
+        <h2>Gengar</h2>
+        <img class="gengar" src="./img/Gengar.png" alt="produtos 3">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="capturar" id="capturar">
+    <div class="capturarPsico">
+      <h2>Abra</h2>
+      <span><sup>Hp</sup>25</span>
+
+      <ul>
+        <li>Teleport</li>
+        <li>Kinesis</li>
+        <li>Confusion </li>
+        <li>Hidden Power</li>
+      </ul>
+      <a href="#">Capturar</a>
+    </div>
+
+    <div class="capturarPsico">
+      <h2>Kadabra</h2>
+      <span><sup>Hp</sup>40</span>
+
+      <ul>
+        <li>Confusion</li>
+        <li>Kinesis</li>
+        <li>Recover</li>
+        <li>Psychic</li>
+        <li>Future Sight</li>
+      </ul>
+      <a href="#">Capturar</a>
+    </div>
+
+    <div class="capturarPsico">
+      <h2>Alakazan</h2>
+      <span><sup>Hp</sup>55</span>
+
+      <ul>
+        <li>Psycho Cut</li>
+        <li>Kinesis</li>
+        <li>Recover</li>
+        <li>Psychic</li>
+        <li>Future Sight</li>
+        <li>Calm Mind</li>
+      </ul>
+      <a href="#">Capturar</a>
+    </div>
+  </section>
+
+  <section class="pokemons" id="pokemons">
+    <div class="algunsPokemons">
+      <h2>Mime Jr.</h2>
+      <p>Mime Jr., um Pokémon de tipo Fada/Psíquico, é conhecido por suas habilidades de imitação e criar barreiras
+        invisíveis para se proteger.</p>
+    </div>
+
+    <div class="algunsPokemons">
+      <h2>Mr. Mime</h2>
+      <p>
+        Mr. Mime, do tipo Fada/Psíquico, é conhecido por criar barreiras invisíveis com seus movimentos ágeis. Ele é
+        habilidoso em ilusões e comunicações gestuais.</p>
+    </div>
+
+
+    <div class="algunsPokemons">
+      <h2>Mr. Rime</h2>
+      <p>Mr. Rime, evolução do Mr. Mime, é um Pokémon Fada/Psíquico com habilidades teatrais, combinando dança e mímica
+        de forma encantadora.</p>
+    </div>
+
+    <div class="algunsPokemons">
+      <h2>Slowbro</h2>
+      <p>Slowbro, tipo Água/Psíquico, é resultado da evolução de Slowpoke com Shellder. Sua concha age como armadura,
+        proporcionando defesa extra. Apesar da aparência descontraída, é um adversário formidável.</p>
+    </div>
+
+    <div class="algunsPokemons">
+      <h2>Slowpoke</h2>
+      <p>Slowpoke é um Pokémon tipo Água/Psíquico conhecido por sua calma e natureza lenta. Sua cauda às vezes é mordida
+        por engano, causando distração.</p>
+    </div>
+
+    <div class="algunsPokemons">
+      <h2>Slowking</h2>
+      <p>Slowking, tipo Água/Psíquico, é a evolução especial de Slowpoke com King's Rock. Possui inteligência superior e
+        é hábil em estratégias complexas.</p>
+    </div>
+  </section>
+
+  <section class="newsLetter">
+    <div class="newsLetterInfo">
+      <h1>Newsletter</h1>
+      <p>Exemplo de utilização de flex: ;</p>
+    </div>
+    <form class="newsLetterForm">
+      <input type="text" placeholder="Seu e-mail">
+      <button type="submit">Assinar</button>
+    </form>
+  </section>
+
+  <div class="rodapeInfo-bg">
+
+    <div class="rodapeInfo">
+      <p>Desenvolvido por<a href="https://www.linkedin.com/in/renanfumis/" target="_blank">Renan Fumis</a></p>
+      <a href="tel:+5511981895187">+55 11 98189-5187</a>
+      <p>São Paulo/SP</p>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <p>&copy;FlexBlog Pokemon todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,433 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+font-family: 'Nunito Sans',Helvetica, Arial, sans-serif;
+list-style: none;
+box-sizing: border-box;
+}
+
+:root{
+  --cor-primaria: #607848;
+  --cor-secundaria: #789048;
+  --cor-terciaria: #ffffff;
+  --cor-quartenaria: #222222;
+  --cor-quintenaria: #7c7c7c;
+  --cor-sextagenaria: #a4a4a4;
+  --cor-setimagenaria: #F0F0D8;
+  --cor-detalhePrimeira: #D49BC8;
+  --cor-detalheSegunda: #D382E8;
+  --cor-detalheTerceira: #9675A2;
+  --cor-detalheQuarta: #ae81ff;
+  --cor-detalheQuinta: #f9265e;
+  --cor-detalheSexta: #66d9eb;
+}
+
+body{
+  color: var(--cor-quartenaria);
+  
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+.gallade{
+  width: 220px;
+  height: 550px;
+  object-fit: cover;
+}
+
+.alakazan{
+  width: 220px;
+  height: 275px;
+  object-fit: cover;
+}
+
+
+/*Menu*/
+
+.menu-bg{
+  background: var(--cor-primaria);
+  
+}
+.menu a{
+  color: var(--cor-terciaria);
+}
+
+.menuLogo{
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin: 0 10px;
+}
+.supPokemon{
+  font-size: .9rem;
+}
+
+.menu{
+  max-width: 960px;
+  margin: 0px auto;
+  padding: 15px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuNavegacao ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menuNavegacao a{
+font-size: 1.25rem;
+display: block;
+padding: 10px;
+}
+
+.menuNavegacao a:hover{
+  color: var(--cor-secundaria);
+}
+
+/*Introdução*/
+
+.introducao{
+  font-size: 3rem;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0px auto;
+  padding: 60px 10px;
+}
+  
+  /*Sobre*/
+
+.sobre{
+  border-top: 2px solid var(--cor-secundaria);
+  border-bottom: 2px solid var(--cor-secundaria);
+  max-width: 960px;
+  margin: 0px auto;
+  padding: 60px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.sobreInfo{
+  flex: 2 1 300px;
+  margin: 0px 10px;
+}
+
+.sobreInfo h1{
+  font-size: 3rem;
+  margin-bottom: .5rem;
+}
+
+.sobreInfo p{
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: var(--cor-quintenaria);
+}
+
+.sobreImg{
+  flex: 1 1 160px;
+  margin: 0px 10px;
+}
+
+/*Evolução*/
+
+.evolucao{
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.evolucao h1{
+  font-size: 3rem;
+  margin: 0px 10px 60px 10px;
+}
+
+.evolucaoContainer{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.evolucaoGastly{
+  flex: 1 1 175px;
+  margin: 10px;
+}
+
+.evolucaoGastly h2{
+  font-size: 3rem;
+  color: var(--cor-sextagenaria);
+  background: var(--cor-setimagenaria);
+  padding: 50px 20px;
+}
+
+.primeiro{
+  border-top: 10px solid var(--cor-detalhePrimeira);
+}
+
+.gastly{
+  background: var(--cor-setimagenaria);
+}
+
+.segundo{
+  border-top: 10px solid var(--cor-detalheSegunda);
+}
+.haunter{
+  height: 300px;
+  background: var(--cor-setimagenaria);
+  object-fit: cover;
+}
+
+.terceiro{
+  border-top: 10px solid var(--cor-detalheTerceira);
+}
+
+.gengar{
+  background: var(--cor-setimagenaria);
+  object-fit: cover;
+}
+
+/*Capturar*/
+
+.capturar{
+  background: var(--cor-setimagenaria);
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.capturarPsico{
+  flex: 1;
+  border: 4px solid var(--cor-terciaria) ;
+  padding: 20px;
+  margin: 10px;
+  min-width: 260px; /*Sempre definir um min-qidth para menos de 280px*/
+}
+
+.capturarPsico h2{
+  font-size: 3rem;
+  color: var(--cor-sextagenaria);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.capturarPsico span{
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  padding: 10px 0px 5px 0px;
+  border-top: 4px solid var(--cor-terciaria);
+  border-bottom: 4px solid var(--cor-terciaria);
+  font-size: 3rem;
+}
+
+.capturarPsico sup{
+  font-size: 1.5rem;
+}
+
+.capturarPsico ul{
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--cor-quintenaria);
+}
+
+.capturarPsico li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.capturarPsico li::after{
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: var(--cor-primaria);
+  border-radius: 50%;
+}
+
+.capturarPsico a{
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border: 4px solid;
+  color: var(--cor-quartenaria);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+/*Alguns Pokemons*/
+
+.pokemons{
+  max-width: 960px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.algunsPokemons{
+  flex: 1 1 300px;
+  margin: 20px 10px;
+}
+
+.algunsPokemons h2{
+  font-size: 2.2rem;
+  color: var(--cor-sextagenaria);
+  margin-bottom: 20px;
+}
+
+.algunsPokemons h2::before{
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.algunsPokemons:nth-of-type(3n+1) h2::before{
+  background: var(--cor-detalheQuarta);
+}
+
+.algunsPokemons:nth-of-type(3n+2) h2::before{
+  background: var(--cor-detalheQuinta);
+}
+
+.algunsPokemons:nth-of-type(3n+3) h2::before{
+  background: var(--cor-detalheSexta);
+}
+
+.algunsPokemons p{
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: var(--cor-quintenaria);
+}
+
+/*Newsletter*/
+
+.newsLetter{
+  background: var(--cor-setimagenaria);
+  padding: 60px calc((100% - 960px) / 2);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsLetterInfo{
+  flex: 1 1 240px;
+  margin: 0px 10px;
+}
+
+.newsLetterInfo h1{
+  font-size: 3rem;
+  color: var(--cor-sextagenaria);
+}
+.newsLetterInfo p{
+  font-size: 1.25rem;
+  font-style: italic;
+  max-width: 230px;
+  color: var(--cor-quintenaria);
+  margin-bottom: 10px;
+}
+
+.newsLetterForm{
+  flex: 2 1 260px;
+  margin: 0px 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsLetterForm input{
+  flex: 3 1 260px;
+  font-size: 1.25rem;
+  color: var(--cor-quintenaria);
+  font-style: italic;
+  font-family: 'Nunito Sans',Helvetica, Arial, sans-serif;
+  border: 2px solid var(--cor-primaria);
+  background: transparent;
+  padding: 15px 10px;
+  margin: 0px;
+  border-radius: 0px;
+}
+
+.newsLetterForm button{
+  flex: 1 1 260px;
+  font-family: 'Nunito Sans',Helvetica, Arial, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: var(--cor-primaria);
+  color: var(--cor-terciaria);
+  cursor: pointer;
+  border: none;
+  padding: 15px 10px;
+}
+
+/*Rodapé Informação*/
+.rodapeInfo-bg{
+  background: var(--cor-secundaria);
+  color: var(--cor-terciaria);
+}
+
+.rodapeInfo{
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.rodapeInfo a{
+  color: var(--cor-terciaria);
+}
+
+.rodapeInfo a, p {
+  margin: 0px 10px 10px 10px;
+}
+
+/*Rodapé*/
+.footer{
+  display: flex;
+  background: var(--cor-primaria);
+  height: 150px;
+  align-items: center;
+}
+
+.footer p{
+  flex: 1;
+  text-align: center;
+  font-size: 2.25rem;
+  color: var(--cor-secundaria);
+}
+
+
+@media (max-width: 800px){
+  .preco{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .precoItem:nth-child(2){
+    order: -1;
+  }
+  .precoItem:nth-child(3){
+    order: 2;
+  }
+  .newsLetterForm button{
+    font-size: 1.5rem;
+  }
+}
+
