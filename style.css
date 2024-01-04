@@ -429,5 +429,8 @@ padding: 10px;
   .newsLetterForm button{
     font-size: 1.5rem;
   }
+  .haunter{
+    width: 450px;
+  }
 }
 
